@@ -1,0 +1,46 @@
+body{
+    background-color:olive
+}
+    .test{
+
+    
+    h1{
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        font-size: 45px;
+        text-align: center;
+        text-decoration:underline;
+    }
+
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 23px;
+    margin-left:27%;
+}
+    }
+
+.stylish-button {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 15px 30px; /* Padding around text */
+    font-size: 16px; /* Font size */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transition */
+    text-align: center; /* Center text */
+}
+
+.stylish-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.stylish-button:active {
+    transform: scale(0.95); /* Slightly shrink on click */
+}
+
+    
+
+
+
