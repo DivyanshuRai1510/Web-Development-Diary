@@ -1,0 +1,19 @@
+.red
+{
+    color: rgb(235, 108, 108);
+}
+.bg-yellow{
+background-color: rgba(253, 253, 28, 0.849);
+}
+#firstdiv{ /* id has more priority than class if class and id are executing same attribute but with different result that's why here id shows its property over bg yellow class you can also generate link using id values just write link of main webpage and then"#" id of particualar content of page which you want to directly access on opening that web page*/
+background-color: rgb(93, 198, 198);
+}
+#seconddiv{
+    background-color: blue;
+    display: inline-block;
+
+}
+.red1{
+    background-color: thistle;
+    display: inline-block;
+}
