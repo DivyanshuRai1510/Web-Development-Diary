@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Element selector */
+        div {
+            background-color: rgb(127, 250, 131);
+        }
+
+        /* Class select */
+        .blue {
+                background-color: rgb(127, 172, 250);
+             }
+         /* id selector */
+        #id {
+                background-color: rgb(251, 151, 241);
+           }
+           /* Child selector */
+           div>p{
+               background-color: rgb(238, 184, 103);
+           }
+          
+           /* Descendant selector */
+            span p {
+            background-color: rgb(125, 218, 204);
+           }
+           
+           /* Universal selector */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .rai{
+                background-color: rgb(243, 243, 26);
+            }
+        
+
+        /* Pseudo Selector */
+      a:visited{
+        color: rgb(251, 0, 0);
+      }
+
+      a:link{
+        color: rgb(139, 125, 18);
+      }
+      a:active{
+        color: maroon;
+      }
+      a:hover{
+        color: black;
+      }
+      
+      p:first-child{
+        color: rgb(10, 116, 116);
+      }
+    </style>
+</head>
+
+<body>
+    <main class="one">
+        <p>
+            i am the first child
+        </p>
+
+        <p>I am second child</p>
+        </main>
+    <div>
+        this is selector and masterclass module
+    </div>
+
+    <div class="blue">
+        this is selector and masterclass module
+    </div>
+
+    <div id="id">
+        this is selector and masterclass module
+    </div>
+
+    <div >
+        <P>this is selector and masterclass module.
+        </P>
+    </div>
+    <span >
+        <article>
+            <p> 
+                this is selector and masterclass module.
+            </p>
+             </article>
+        
+    </span >
+
+    <div id="Pseudo">
+        this is selector and masterclass module
+        <br>
+    </div>
+    <a href="https://www.google.com" target="_blank">Go to Google</a><br>
+    <a href="https://www.facebook.com">Go to facebook</a>
+
+    
+
+</body>
+
+</html>
