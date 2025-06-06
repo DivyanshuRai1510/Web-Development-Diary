@@ -1,0 +1,24 @@
+header{
+    margin: 15%;
+}
+.box{
+    background-color: rgba(179, 24, 24, 0.377);
+}
+.box1
+{ color: rgb(31, 249, 2);
+    padding: 10px;
+    margin: 25px;
+    border: 5px;
+
+}
+.box2{
+    color: darkred;
+    padding: 10px;
+    margin: 10px;
+    border: 5px solid rgb(0, 85, 203);
+    border-style: dotted;
+    box-sizing: border-box;
+    height: 200px;
+    
+
+}
