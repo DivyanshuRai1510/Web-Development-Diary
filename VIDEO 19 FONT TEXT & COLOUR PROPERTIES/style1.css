@@ -1,0 +1,12 @@
+h1{
+    color: red;
+    color: rgb(16,213,215);
+    color: rgba(67, 255, 100, 0.85);
+    color: #d7a810;
+    color: hsl(289, 69%, 45%);
+    color: hsla(0, 100%, 50%, 0.358);
+    text-align: center;
+}
+li{
+  line-height: 2.5;
+}

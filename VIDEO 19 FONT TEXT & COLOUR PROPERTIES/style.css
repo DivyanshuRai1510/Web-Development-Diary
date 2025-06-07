@@ -1,0 +1,50 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Baloo+Bhaijaan+2:wght@400..800&display=swap');
+
+*{
+    margin: 0px;
+}
+.font1{
+    background-color: rgb(198, 106, 124);
+    font-family: 'baloo bhai 2','Gill Sans', 'Gill Sans MT' ;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-style: italic;
+    font-style: oblique;
+    font-weight: 50000px;
+    text-decoration: underline;
+    font-size:20px;
+    font-weight: 10px;
+    padding:0px;
+    margin: 0px;
+    text-align: center;
+    
+    
+}
+p{
+    line-height:2.8;
+    letter-spacing: 1.5px;
+    text-decoration:overline;
+    text-transform: capitalize;
+    text-overflow: ellipsis;
+   
+}
+
+h2{
+    text-transform: capitalize;
+    text-decoration:underline;
+    text-decoration-color: rgba(255, 94, 247, 0.87) ;
+    text-decoration-style: wavy;
+    text-decoration-thickness:3px;
+    text-indent: 34px;
+    text-overflow: ellipsis;
+    text-align: center;
+
+}
+
+.Lorem1{
+     border: solid red;
+     width: 345px;
+     text-overflow:clip;
+     overflow: hidden;
+     word-break:break-all;
+}
