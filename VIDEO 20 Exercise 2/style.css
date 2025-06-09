@@ -1,0 +1,17 @@
+h1{
+    background-color: #78ebeb75;
+  color: rgb(79, 20, 226);
+  /* display: inline-block; */
+  /* text-indent: 500px; */
+  text-align:center;
+  text-decoration: wavy;
+
+}
+p:first-child{
+    background-color: rgba(255, 255, 0, 0.564);
+    color: darkred;
+}
+p{
+    background-color: rgba(0, 119, 255, 0.568);
+    color: rgb(255, 255, 255);
+}
