@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding:0 ;
+}
+.container{
+    border: 2px solid pink;
+    /* display: inline; */
+    display: inline block;
+    padding: 45px;
+   margin: 34px;
+}
+.container1{
+    /* display: none; */
+    visibility: hidden;
+}
