@@ -1,0 +1,8 @@
+nav ul li{
+    /* list-style: devanagari; */
+    /* list-style-position: inside; */
+    border:2px solid;
+    background-color: rgba(175, 223, 231, 0.589);
+    list-style: devanagari inside ;/*  we can give url also im this statement */
+    list-style-type:"😂";
+}
