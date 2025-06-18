@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:0;
+}
+.parent{
+    padding :43px;
+    margin: 33px;
+    border: 3px solid purple;
+    position: absolute;
+    /* Exception: transform ,filter or perpective properties can also make an element appear as positioned */
+}
+
+.box{
+         margin: 3px;
+         border: 2px solid black;
+         height:433px;
+         width: 80vw;
+}
+.box1{
+    background-color: rgba(255, 192, 205, 0.705);
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    height: 111px;
+    margin: 0;
+    padding: 0;
+    
+    /* position: absolute;
+    top: 8px;
+    left: 144px; */
+}
+.box2{
+    background-color: rgb(185, 250, 228);
+    /* position: relative;
+    top: 50px;
+    left: 50px;
+ */
+}
+.box3{
+    background-color: rgb(255, 171, 237);
+    /* position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 8vw;
+    height: 111px; */
+}
+.box4{
+    background-color: rgb(255, 233, 125);
+}
